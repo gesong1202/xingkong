@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: 星空
+subtitle: '记录学习与成长'
+description: '个人技术博客，分享运维和生活随笔'
+keywords: 博客, 技术, 前端, Linux, 生活
+author: 啊宋
 language: zh-CN
 timezone: 'Asia/Shanghai'
 

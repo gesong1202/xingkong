@@ -492,6 +492,7 @@ search:
 
   # Local Search
   local_search:
+  
     enable: true
     # Preload the search data when the page loads.
     preload: true
@@ -504,6 +505,9 @@ search:
       enable: false
       # Number of search results per page
       hitsPerPage: 8
+    labels:
+      input_placeholder: 搜索文章
+      hits_empty: "没有找到相关文章: ${query}"
     CDN:
 
   # Docsearch
