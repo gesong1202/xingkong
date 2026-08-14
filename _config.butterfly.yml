@@ -155,7 +155,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -171,8 +171,9 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    -记录每一次动手的记录
-
+    - 记录每一次动手的过程
+    - 把知识写成能复用的路径
+    - 代码改变世界，文字记录成长
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
 # 2: Cover on the right, info on the left
@@ -263,15 +264,15 @@ noticeOutdate:
 # Footer Settings
 # --------------------------------------
 footer:
-  nav:
   owner:
     enable: true
-    since: 2025
-  # Copyright of theme and framework
-  copyright:
-    enable: true
-    version: true
-  custom_text:
+    since: 2024
+  custom_text: 生活不止眼前的代码，还有远方的山川湖海
+  copyright: true
+  ICP:
+    enable: false
+    url: 
+    text: 
 
 # --------------------------------------
 # Aside Settings
@@ -291,15 +292,15 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: 一个正在折腾技术的开发者
     button:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/gesong1202
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎来到我的博客，欢迎留言交流！
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -491,8 +492,9 @@ search:
 
   # Local Search
   local_search:
+    enable: true
     # Preload the search data when the page loads.
-    preload: false
+    preload: true
     # Show top n results per article, show all results by setting to -1
     top_n_per_article: 1
     # Unescape html strings to the readable one.
