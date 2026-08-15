@@ -1,13 +1,13 @@
 ---
-title: Linux 常用命令整理
-date: 2026-08-15
-categories:
-  - k8s
-  - 三方插件
+title: 我的第一篇博客
+date: 2026-08-15 
 tags:
-  - calico
-  - 运维
+  - 星空
+  - 主页
 ---
+
+这是我的第一篇 Hexo 博客文章。
+
 ## 欢迎使用
 
 - 支持 Markdown 语法
